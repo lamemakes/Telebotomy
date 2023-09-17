@@ -1,0 +1,38 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# RJHSE-5080
+#
+DEF RJHSE-5080 J 0 40 Y Y 1 L N
+F0 "J" -200 450 50 H V L BNN
+F1 "RJHSE-5080" -200 -600 50 H V L BNN
+F2 "AMPHENOL_RJHSE-5080" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "RJHSE-5080-ND" 0 0 50 H I L BNN "DigiKey_Part_Number"
+F5 "Amphenol Commercial Products" 0 0 50 H I L BNN "MF"
+F6 "13.21 mm" 0 0 50 H I L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F7 "None" 0 0 50 H I L BNN "Package"
+F8 "https://www.snapeda.com/parts/RJHSE-5080/Amphenol/view-part/?ref=eda" 0 0 50 H I L BNN "Check_prices"
+F9 "Manufacturer Recommendations" 0 0 50 H I L BNN "STANDARD"
+F10 "G" 0 0 50 H I L BNN "PARTREV"
+F11 "https://www.snapeda.com/parts/RJHSE-5080/Amphenol/view-part/?ref=snap" 0 0 50 H I L BNN "SnapEDA_Link"
+F12 "RJHSE-5080" 0 0 50 H I L BNN "MP"
+F13 "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4796273&manufacturer=Amphenol Commercial Products&part_name=RJHSE-5080&search_term=None" 0 0 50 H I L BNN "Purchase-URL"
+F14 "\nConnector, Modular Jack, 8, Phosphor Bronze, Gold Over Nickel, 0.62 in. | Amphenol Commercial (Amphenol CS) RJHSE-5080\n" 0 0 50 H I L BNN "Description"
+F15 "Amphenol" 0 0 50 H I L BNN "MANUFACTURER"
+DRAW
+S -200 -500 200 400 0 0 10 f
+X 1 1 -400 300 200 R 40 40 0 0 P 
+X 2 2 -400 200 200 R 40 40 0 0 P 
+X 3 3 -400 100 200 R 40 40 0 0 P 
+X 4 4 -400 0 200 R 40 40 0 0 P 
+X 5 5 -400 -100 200 R 40 40 0 0 P 
+X 6 6 -400 -200 200 R 40 40 0 0 P 
+X 7 7 -400 -300 200 R 40 40 0 0 P 
+X 8 8 -400 -400 200 R 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library
