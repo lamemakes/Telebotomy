@@ -28,10 +28,10 @@ The installation of the Telebotomy is as follows:
 1. Locate the _Remote Input_ connector on the Telebotomy and connect the appropriate sensor
     - _If using IR_ place the sensor so it's close to the TV's reciever.
 1. Connect the Telebotomy's Micro-USB port to a USB power source.
-1. [Test!](#testing-the-telebotomy)
+1. [Test!](#testing-telebotomy)
 1. Profit!
 
-## Testing the Telebotomy
+## Testing Telebotomy
 
 1. Ensure the Smart TV is powered but turned off.
 1. Power cycle the Telebotomy or press the "Reset" button.
