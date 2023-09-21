@@ -9,7 +9,7 @@ env:
   SCHEMATIC_IMG_PATH: docs/images/
 
 jobs:
-  build:
+  image-gen:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
@@ -26,4 +26,4 @@ jobs:
         committer_name: GitHub Actions
         committer_email: actions@github.com
         add: .
-        message: 'Updates Schematic Image'
+        message: 'Update Schematic Image'

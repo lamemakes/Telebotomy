@@ -33,7 +33,7 @@ The installation of the Telebotomy is as follows:
 
 ## Schematic
 
-![The Telebotomy Schematic](docs/image/Telebotomy.svg)
+<img src="docs/images/Telebotomy.svg" alt="The Telebotomy Schematic" width="50%"/>
 
 ## Testing Telebotomy
 
