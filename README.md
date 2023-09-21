@@ -31,6 +31,10 @@ The installation of the Telebotomy is as follows:
 1. [Test!](#testing-telebotomy)
 1. Profit!
 
+## Schematic
+
+![The Telebotomy Schematic](docs/image/Telebotomy.svg)
+
 ## Testing Telebotomy
 
 1. Ensure the Smart TV is powered but turned off.
