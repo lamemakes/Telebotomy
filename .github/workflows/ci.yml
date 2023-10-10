@@ -19,9 +19,9 @@ jobs:
         sudo apt update --yes
         sudo apt install --install-recommends --yes kicad
     - name: Generate the schematic image
-      run: kicad-cli sch export svg hardware/Telebotomy-schematic.kicad_sch -o $SCHEMATIC_IMG_PATH
+      run: kicad-cli sch export svg hardware/Telebotomy.kicad_sch -o "${SCHEMATIC_IMG_PATH}Telebotomy-schematic.svg"
     - name: Generate the PCB image
-      run: kicad-cli pcb export svg hardware/Telebotomy-pcb.kicad_sch -l "F.Cu,B.Cu,F.Silkscreen,B.Silkscreen,Edge.Cuts" -o $SCHEMATIC_IMG_PATH
+      run: kicad-cli pcb export svg hardware/Telebotomy.kicad_pcb -l "F.Cu,B.Cu,F.Silkscreen,B.Silkscreen,Edge.Cuts" -o "${SCHEMATIC_IMG_PATH}Telebotomy-pcb.svg"
     - name: Push changes
       uses: EndBug/add-and-commit@v9
       with:
