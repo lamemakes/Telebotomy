@@ -23,17 +23,13 @@ The installation of the Telebotomy is as follows:
 
 1. Ensure the Smart TV is powered but turned off.
 1. Plug in the ethernet to the Telebotomy's respective ports
-    - _to TV_ should be the connection to the TV
-    - _to Network_ should be the connection to the network source
+    - _TV Out_ should be the connection to the TV
+    - _Net In_ should be the connection to the network source
 1. Locate the _Remote Input_ connector on the Telebotomy and connect the appropriate sensor
     - _If using IR_ place the sensor so it's close to the TV's reciever.
 1. Connect the Telebotomy's Micro-USB port to a USB power source.
 1. [Test!](#testing-telebotomy)
 1. Profit!
-
-## Schematic
-
-<img src="docs/images/Telebotomy.svg" alt="The Telebotomy Schematic" width="50%"/>
 
 ## Testing Telebotomy
 
@@ -50,6 +46,16 @@ The installation of the Telebotomy is as follows:
     - Turn the TV on via a physical button and ensure it is not connected to the internet
     - _If using Pi-Hole_ There is no network activity coming from the IP of the TV.
 
+
+## Diagrams
+
+### Schematic
+
+<img src="docs/images/Telebotomy-schematic.svg" alt="The Telebotomy Schematic" width="65%"/>
+
+### PCB Layout
+
+<img src="docs/images/Telebotomy-pcb.svg" alt="The Telebotomy PCB" width="65%"/>
 
 <!--
 
